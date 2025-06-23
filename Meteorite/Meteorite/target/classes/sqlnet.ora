@@ -1,0 +1,2 @@
+WALLET_LOCATION = (SOURCE = (METHOD = file) (METHOD_DATA = (DIRECTORY=C:/Users/lakeb/Downloads/STACK/STACK/Meteorite/Meteorite/src/main/resources)))
+SSL_SERVER_DN_MATCH=yes

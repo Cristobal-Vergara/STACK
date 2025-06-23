@@ -12,8 +12,14 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Producto {
-    @Id @GeneratedValue
+    @Id 
+    @GeneratedValue
     private Long id;
     private double price;
     private String name;
+
+    public Producto(double price, String name) {
+        this.price = price;
+        this.name = name;
+    }
 }
